@@ -1,5 +1,9 @@
 
 public abstract class Component {
-	private String componentName;
+	protected String componentName;
+	public Component(String componentName) {
+		this.componentName = componentName;
+	}
+	public abstract String getComponentName();
 	
 }
